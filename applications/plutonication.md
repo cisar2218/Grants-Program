@@ -150,8 +150,10 @@ https://github.com/rostislavLitovkin/plutonicationextension
 - What your project is _not_ or will _not_ provide or implement
 
 Any improvements to PlutoWallet appart from the things needed for Plutonication to work in the PlutoWallet.
+
 Although it is planned support Kotlin and Swift programming languages as well, it is not part of this grant proposal.
 
+We are certainly willing to make PRs to other popular dApps to utilise Plutonication, it is also not part of this grant proposal. We would be willing to do a follow-up grant or get a treasury funding to make the PRs.
 
 ### Ecosystem Fit
 
@@ -198,41 +200,65 @@ You can also interact with existing web dApps with your mobile wallet. Again, yo
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+- Name of team leader: 
+
+Dušan Jánsky
+
+- Names of team members:
+
+Rostislav Litovkin
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:** Your website
+- **Contact Name:** Dušan Jánsky
+- **Contact Email:** cisar2218@gmail.com
+- **Website:** https://github.com/cisar2218/Plutonication
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** None
+- **Registered Legal Entity:** None
 
 ### Team's experience
 
 Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. 
 
+#### Dušan Jánsky
+- Alumnus at Polkadot Blockchain Academy 2023 in Berkeley
+- Student at Faculty of Electrical Engineering Czech Technical University in Prague - Opens Informatics (specialization in computer games and computer graphics)
+- Fullstack developer at [Universal Scientific Technologies](https://www.ust.cz/)
+- Polkadot Global Series 2023 (Europe) - second place
+
+#### [Rostislav Litovkin](http://rostislavlitovkin.pythonanywhere.com/aboutme)
+- Alumnus at Polkadot Blockchain Academy 2023 in Berkeley
+- Experienced .net MAUI developer, e.g.:
+   - [Galaxy Logic Game](https://github.com/RostislavLitovkin/galaxylogicgamemaui) (successful game for watches and mobiles, 50k+ downloads)
+- Frontend developer at [Calamar explorer](https://calamar.app/)
+- Successful student at Polkadot DevCamp #2
+- Successful student at [Solana Summer School](https://ackeeblockchain.com/school-of-solana)
+- Polkadot Global Series 2023 (Europe) - second place
+- Audience choice prize at EthPrague 2023
+
 If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
+
+Rostislav Litovkin helped with **Calamar.app - TopMonks s.r.o**
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+- https://github.com/ThunderFly-aerospace/thumby
+- https://github.com/topmonks/calamar
+- https://github.com/RostislavLitovkin/GalaxyLogicGameMAUI
+- https://github.com/RostislavLitovkin/Uniquery.Net
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- https://github.com/cisar2218
+- https://github.com/rostislavlitovkin
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
-
+- https://www.linkedin.com/in/dusan-jansky-6aab69239/
+- btw Rosta hates LinkedIn :D
 
 ## Development Status :open_book:
 
@@ -240,11 +266,11 @@ If you've already started implementing your project or it is part of a larger re
 
 The idea was already tested by WalletConnect. Now, we are expanding it further in the Polkadot ecosystem.
 
-More info about what we have already done can be found here:
-
-https://github.com/rostislavLitovkin/plutowallet
+We have already made working MVPs which can be found here:
 
 https://github.com/cisar2218/Plutonication
+
+https://github.com/rostislavLitovkin/plutowallet
 
 https://github.com/rostislavLitovkin/plutonicationextension
 
@@ -345,6 +371,7 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 | **0b.** | Documentation | We will provide **inline documentation of the code**. |
 | **0c.** | Testing and Testing Guide | All of the functions will be end-to-end tested with a sample dApp (https://polkadot.js.org/apps/) and a sample Wallet (PlutoWallet) |
 | **0d.** | Docker | We will not provide a docker file |
+| **0e.** | Article | We will publish an article that explains what was done as part of the grant. We will mention how Plutonication is ground-breaking and can be used by anyone. |  
 | 1. | Plutonication Extension | This is a __polkadot.js extension__ compatible browser extension for Plutonication. |
 | 1a. | Inject(..) | Injects the browser extension into the polkadot.js dApp. |
 | 1b. | ReceiveAddress(..) | Handles the receiving of SS58 encoded address |
