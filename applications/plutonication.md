@@ -138,14 +138,10 @@ E -. Scan QR code for establishing connection .-> W;
 - Generate a QR code for the Wallet to establish the connection.
 
 - PoC/MVP or other relevant prior work or research on the topic
-
-Second place at Polkadot Global Series: Europe edition 2023 hackathon in Web3 and Tooling category.
-
-https://github.com/rostislavLitovkin/plutowallet
-
-https://github.com/cisar2218/Plutonication
-
-https://github.com/rostislavLitovkin/plutonicationextension
+    - Second place at Polkadot Global Series: Europe edition 2023 hackathon in Web3 and Tooling category.
+    - https://github.com/cisar2218/Plutonication
+    - Plutonication is integrated to: https://github.com/rostislavLitovkin/plutowallet
+    - https://github.com/rostislavLitovkin/plutonicationextension
 
 - What your project is _not_ or will _not_ provide or implement
 
@@ -164,11 +160,11 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 Our project is comparable to WalletConnect, which was also our inspiration.
 When we started making our first prototypes in February, WalletConnect was not available in the Polkadot Ecosystem yet.
 Even thought they have taken a lot of time and had a lot more experience then us, they were unable to make quick and elegant deliveries.
-Wallet connect still is not supported by most of the dApps. We think we can do better. Actually, we already did.
+WalletConnect still is not supported by most of the dApps. We think we can do better. Actually, we already did.
 
 We made a Plutonication Extension, which already allows you to interact with existing dApps, even though they have not implemented the Plutonication standard directly. This can be a perfect middle ground during the transition of popularizing the Plutonication. Even if the user wanted to use a new niche dApp, they can do so with Plutonication.
 
-Wallet connect is also only supported in javascript. We want to make Plutonication available in more languages, including a very popular c# language, which is mostly used for game development. We will make web3 gaming possible on game console, thanks to the Plutonication.
+Wallet connect is also only supported in javascript. We want to make Plutonication available in more languages, including a very popular C# language, which is mostly used for game development. We will make web3 gaming possible on game consoles, thanks to the Plutonication.
 
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 
@@ -332,7 +328,7 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 | 2b. | SendSignedPayloadAsync(..) | Method used for sending a signed extrinsic payload back to the dApp. The signed extrinsic payload will then be added to the extrinsic and submitted to chain. |
 | 2c. | SendSignedRawAsync(..) | Method used for sending a signed raw message back to the dApp. |
 | 3. | NuGet package | We will provide a NuGet package, which is commonly used it c# development. It is comparable to NPM packages in Javascript world. |
-| 4. | Sample dApp | We will make a sample c# console dApp (with Plutonication and Substrate.NetApi) published to a public github repo. |
+| 4. | Sample dApp | We will make a sample C# console dApp (with Plutonication and Substrate.NetApi) published to a public github repo. |
 
 ### Milestone 3 Plutonication Typescript version
 
@@ -410,11 +406,11 @@ Here you can also add any additional information that you think is relevant to t
 
 - Work you have already done.
 
-https://github.com/rostislavLitovkin/plutowallet
-
 https://github.com/cisar2218/Plutonication
 
 https://github.com/rostislavLitovkin/plutonicationextension
+
+https://github.com/rostislavLitovkin/plutowallet
 
 - If there are any other teams who have already contributed (financially) to the project.
 
