@@ -203,6 +203,7 @@ Dušan Jánsky
 - Names of team members:
 
 Rostislav Litovkin
+Valentina Gómez
 
 ### Contact
 
@@ -235,6 +236,11 @@ Please describe the team's relevant experience. If your project involves develop
 - Polkadot Global Series 2023 (Europe) - second place
 - Audience choice prize at EthPrague 2023
 
+#### Valentina Gómez
+- Alumnus at Polkadot Blockchain Academy 2023 - Berkeley.
+- Full stack web developer in TeamClass.
+- Financial Engineer
+
 If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
 
 Rostislav Litovkin helped with **Calamar.app - TopMonks s.r.o**
@@ -254,7 +260,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 ### Team LinkedIn Profiles (if available)
 
 - https://www.linkedin.com/in/dusan-jansky-6aab69239/
-- btw Rosta hates LinkedIn :D
+- https://www.linkedin.com/in/valentinaga1/
 
 ## Development Status :open_book:
 
